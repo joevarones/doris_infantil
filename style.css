@@ -89,6 +89,12 @@
     height: 250px;
 }
 
+.description-kids:hover{
+    color: #2D31FA;
+    font-size: 18px;
+    transition: 1;
+}
+
 .text{
     padding: 30px;
     text-align: justify;
@@ -123,6 +129,12 @@
     height: 250px;
 }
 
+.description-girl:hover{
+    color: #E60965;
+    font-size: 18px;
+    transition: 1;
+}
+
 .banner-naranja{
     display: flex;
     justify-content: left;
@@ -152,6 +164,12 @@
     height: 250px;
 }
 
+.description-accessories:hover{
+    color:#FF8E00;
+    font-size: 18px;
+    transition: 1;
+}
+
 .banner-verde{
     display: flex;
     justify-content: right;
@@ -179,6 +197,12 @@
 .juguetes-img img{
     width: 250px;
     height: 250px;
+}
+
+.description-toys:hover{
+    color:#54E346;
+    font-size: 18px;
+    transition: 1;
 }
 
 .footer{
