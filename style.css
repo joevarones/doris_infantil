@@ -8,15 +8,6 @@
     margin: auto;
 }
 
-/*.header{
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    background-color: #051367;
-    width: 100%;
-    height: 70px;
-}*/
-
 .bg-nav{
     background-color: #051367;
 }
@@ -73,7 +64,7 @@
     align-items: center;
 }
 
-.franelas-ninos img{
+.img-inicio{
     width: 250px;
     height: 250px;
 }
@@ -87,6 +78,7 @@
 .text{
     padding: 30px;
     text-align: justify;
+    align-items: center;
 }
 
 .banner-rosa{
@@ -271,31 +263,14 @@
         margin-left: 3%;
     }
 
-    .menu{
-        margin-right: 7%;
-    }
-    .menu ul{
-        display: flex;
-        flex-direction: column;
-        font-size: 60%;  
-    }
-    .menu ul li{
-        margin: 2%;
-        padding: 2%;
-    }
-
-    .seccion-one{
-        display: none;
-    }
-
     .banner-azul{
         display: flex;
         justify-content: center;
         text-align: center;
         background-color:#2D31FA;
         color: #5D8BF4;
+        font-size: 25px;
         font-style: italic;
-        font-size: 20px;
         padding-left: 0;
     }
 
@@ -304,11 +279,6 @@
         flex-direction: column;
         align-items: center;
     }
-    .franelas-ninos img{
-        width: 20%;
-        height: 20%;
-        margin: auto;
-    }
 
     .banner-rosa{
         display: flex;
@@ -316,7 +286,7 @@
         justify-content: center;
         background-color:#F473B9;
         color: #E60965;
-        font-size: 20px;
+        font-size: 25px;
         font-style: italic;
         padding-right: 0;
     }
@@ -340,7 +310,7 @@
         color: #051367;
         font-style: italic;
         text-align: center;
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .accesorios{
@@ -361,7 +331,7 @@
         color: #051367;
         font-style: italic;
         text-align: center;
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .juguetes{
@@ -438,25 +408,6 @@
         margin-left: 3%;
     }
 
-    .menu{
-        margin-right: 7%;
-    }
-
-    .menu ul{
-        display: flex;
-        flex-direction: column;
-        font-size: 100%;  
-    }
-
-    .menu ul li{
-        margin: 2%;
-        padding: 2%;
-    }
-
-    .seccion-one{
-        display: none;
-    }
-
     .banner-azul{
         display: flex;
         justify-content: center;
@@ -464,7 +415,7 @@
         background-color:#2D31FA;
         color: #5D8BF4;
         font-style: italic;
-        font-size: 20px;
+        font-size: 25px;
         padding-left: 0;
     }
 
@@ -474,17 +425,20 @@
         align-items: center;
     }
 
-    .franelas-ninos img{
-        width: 20%;
-        height: 20%;
+    .img-inicio{
+        width: 40vw;
+        height: 40vh;
         margin: auto;
+        display: flex;
     }
 
     .banner-rosa{
         display: flex;
+        text-align: center;
         justify-content: center;
         background-color:#F473B9;
         color: #E60965;
+        font-size: 25px;
         font-style: italic;
         padding-right: 0;
     }
@@ -507,7 +461,9 @@
         justify-content: center;
         background-color:#FF8E00;
         color: #051367;
+        font-size: 25px;
         font-style: italic;
+        padding-right: 0;
     }
 
     .accesorios{
@@ -527,7 +483,9 @@
         justify-content: center;
         background-color:#54E346;
         color: #051367;
+        font-size: 25px;
         font-style: italic;
+        padding-right: 0;
     }
 
     .juguetes{
